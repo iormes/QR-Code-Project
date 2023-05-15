@@ -72,15 +72,11 @@
         margin: 0 auto 0 auto;
     }
     
-    .image{
+    .qr-code{
         display: block;
         border-radius: 15px;
-        overflow: hidden;
         padding-top: 18px;
         margin: 0 auto 0 auto;
-    }
-
-    img{
         max-width: 288px;
         max-height: 288px;
     }
