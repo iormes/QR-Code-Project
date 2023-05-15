@@ -59,7 +59,7 @@
         font-weight: 700;
         font-size: 20px;
         max-width: 260px;
-        margin: 0 auto 0 auto;
+        margin: 5px auto 0 auto;
 
     }
     
@@ -69,14 +69,13 @@
         font-weight: 400;
         font-size: 15px;
         max-width: 260px;
-        margin: 0 auto 0 auto;
+        margin: 10px auto 0 auto;
     }
     
     .qr-code{
         display: block;
         border-radius: 15px;
-        padding-top: 18px;
-        margin: 0 auto 0 auto;
+        margin: 18px auto 18px auto;
         max-width: 288px;
         max-height: 288px;
     }
