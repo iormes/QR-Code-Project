@@ -52,6 +52,7 @@
         text-align: center;
         display: block;
         margin: 0px auto 0px auto;
+        padding: 50% 0;
     }
     
     h1{
@@ -78,6 +79,7 @@
     .qr-code{
         display: block;
         border-radius: 10px;
+        overflow: hidden;
         margin: 0px auto 0px auto;
         padding: 18px;
         max-width: 288px;
