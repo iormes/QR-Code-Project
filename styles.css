@@ -55,8 +55,15 @@
         height: 500px;
         background-color: hsl(0, 0%, 100%);
         border-radius: 15px;
+<<<<<<< HEAD
         margin: 0;
         flex-direction: row;
+=======
+        text-align: center;
+        display: block;
+        margin: 20% auto 0px auto;
+
+>>>>>>> parent of e56bafd (Update styles.css)
     }
     
     h1{
