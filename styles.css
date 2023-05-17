@@ -7,26 +7,11 @@ body {
     font-family: "Outfit"
 }
 
-.box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    margin: 2px auto;
-    text-align: center;
-    width: 323px;
-    height: 502px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 18px;
-    box-shadow: hsl(220, 15%, 55%) 0px 7px 29px 0px;
-}
-
 @media (min-width: 375px) and (max-width: 1440px){
     h1{
+        color: hsl(218, 44%, 22%);
         margin: 0 auto;
         padding: 20px 0 17px 0;
-        color: hsl(218, 44%, 22%);
         font-weight: 900;
         font-size: 20px;
         max-width: 260px;
@@ -35,9 +20,9 @@ body {
 
 @media (min-width: 1440px){
     h1{
+        color: hsl(218, 44%, 22%);
         margin: 0 auto;
         padding: 20px 0 17px 0;
-        color: hsl(218, 44%, 22%);
         font-weight: 900;
         font-size: 22px;
         max-width: 260px;
@@ -45,15 +30,31 @@ body {
 }
 
 p {
-    margin: 0 auto;
     color: hsl(220, 15%, 55%);
+    margin: 0 auto;
     font-weight: 400;
     font-size: 15px;
     max-width: 260px;
 }
 
+.box{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    margin: 2px auto;
+    text-align: center;
+    width: 323px;
+    height: 500px;
+    border-radius: 18px;
+    
+}
+
 .qr-code{
+    margin-top: 16px;
     width: 288px;
     border-radius: 11px;
-    margin-top: 16px;
 }
