@@ -1,5 +1,52 @@
 
-@media (min-width: 375px){
+@media (min-width: 375px) and (max-width: 1440px){
+    *{
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit"
+    }
+    
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+        width: 323px;
+        height: 500px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 15px;
+    }
+
+    h1{
+        margin: 0 auto;
+        padding: 18px 0 17px 0;
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+        font-size: 20px;
+        max-width: 260px;
+    }
+    
+    p {
+        margin: 0 auto;
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+        font-size: 15px;
+        max-width: 260px;
+    }
+    
+    .qr-code{
+        width: 288px;
+        border-radius: 11px;
+        margin-top: 16px;
+    }
+} 
+@media (min-width: 1440px){
     *{
         box-sizing: border-box;
     }
