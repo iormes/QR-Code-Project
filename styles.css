@@ -45,10 +45,10 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    margin: 2px auto;
+    margin: 4px auto;
     text-align: center;
     width: 323px;
-    height: 500px;
+    height: 488px;
     border-radius: 18px;
     
 }
